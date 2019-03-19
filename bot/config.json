@@ -1,0 +1,6 @@
+{
+  "key": "XXXXXXX",
+  "secret": "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY",
+  "btcOrderAmount": 0.001,
+  "useDevServer": true
+}

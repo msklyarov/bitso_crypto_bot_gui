@@ -1,0 +1,24 @@
+{
+  "name": "crypto-bot-react.js-gui",
+  "version": "1.0.0",
+  "description": "Cryto Bot React.js Gui",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"cd admin && npm start\"",
+    "server": "nodemon --inspect server.js",
+    "prettier": "prettier --write \"{server.js,admin/src/**/*.{js,jsx,css}}\"",
+    "update": "npm i && cd admin && npm i&& cd ../bot && npm i"
+  },
+  "author": "Maxim Sklyarov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.11.0",
+    "prettier": "^1.16.4"
+  }
+}
